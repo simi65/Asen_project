@@ -5,14 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary">
+   
     <ImageView
-
         android:src="@drawable/dn"
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         />
+    
+    <TextView
+              android:id="@+id/iniText"
+              android:layout_width="200dp"
+              android:layout_height="200dp"
+              android:text="Ini" />
 
     <ProgressBar
 
